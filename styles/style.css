@@ -1,0 +1,54 @@
+.animalbuttons{
+	shape-margin: 5px;
+}
+body {
+    text-align: center;
+    margin-top: 100px;
+  }
+h4{
+  color: #0D2C40; 
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600px;
+  font-size: 45px;
+}
+h1 {
+    font-family: "Raleway", sans-serif;
+    background-color: #F15B31;
+    letter-spacing: 1px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 45px;
+
+}
+header{
+  background-color: #F15B31;
+  padding-top: 30px;
+  padding-bottom:  20px; 
+  padding-right: 30px;
+  padding-left:  20px;
+  text-align: center;
+}
+a{
+  font-family: "Droid Serif", serif;
+  letter-spacing: 1px;
+  font-weight: 600px;
+  font-size: 18px;
+  text-transform: uppercase;
+
+
+}
+p {
+  font-family: "Droid Serif", serif;
+  line-height: 26px;
+  font-size: 18px;
+}
+
+
+}
