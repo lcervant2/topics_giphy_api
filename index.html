@@ -1,38 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 <body>
-	<h1>Giphy Database</h1><br>
-	<div class="container" "="">
-	<div id="animalsbuttons">
-<!-- Buttons -->
-		<button class="btn btn-info animal" data-name="Dogs">Dogs</button>
-		<button class="btn btn-info animal" data-name="Cats">Cats</button>
-		<button class="btn btn-info animal" data-name="Frogs">Frogs</button>
-</div>
-
-</div>
-
-<div id="gifs"></div>
-
-
-<div id="add">
- <h4>Add an button</h4>
-    <form id="gif-form">
-        <label for="gif-input"></label>
-        <input type="text" value="" id="gif-input"><br><br>
-        <input type="submit" name="Button" class="btn btn-success" id="theButton">
-    </form>
-</div>
-
-
+  <h1>Giphy Database</h1><br>
+  <div class="container">
+    <div id="animalsbuttons"></div>
+  </div>
+  <div id="add">
+      <label for="gif-input">
+        <h4>Add an button</h4>
+      </label>
+      <input type="text" value="" id="gif-input"><br><br>
+      <input type="submit" name="Button" class="btn accent" id="theButton">
+  </div>
+  <div id="gifs"></div>
 </body>
 <script src="scripts/logic.js"></script>
 </html>

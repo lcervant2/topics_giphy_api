@@ -1,20 +1,26 @@
-.animalbuttons{
-	shape-margin: 5px;
+.#animalsbuttons button{
+  margin-left: 5px;
+}
+#add {
+  margin-bottom: 15px;
 }
 body {
     text-align: center;
     margin-top: 100px;
+    background-color: #303030;
+    color: rgba(255,255,255, .85);
   }
+
 h4{
-  color: #0D2C40; 
+  color: rgba(255,255,255, .85); 
   font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
   font-weight: 600px;
-  font-size: 45px;
+  font-size: 23px;
 }
 h1 {
     font-family: "Raleway", sans-serif;
-    background-color: #F15B31;
+    background-color: #e91e63;
     letter-spacing: 1px;
     color: white;
     margin: 0 auto;
@@ -50,5 +56,16 @@ p {
   font-size: 18px;
 }
 
+button.accent,
+input.accent {
+  background-color: #e91e63;
+}
 
+button.accent:hover,
+input.accent:hover {
+  color: rgba(255,255,255, 1);
+}
+
+input{
+  color: black;
 }
